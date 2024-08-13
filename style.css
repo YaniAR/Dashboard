@@ -136,6 +136,11 @@ card{
 
 .card-info card{
     border-left: 8px solid #F0B429;
+    transition: 0.3s
+}
+
+.card-info card:hover{
+    transform: scale(1.05);
 }
 
 .card-text > p{
@@ -203,6 +208,11 @@ card{
 
 img.mid-profile{
     width: 40px;
+    transition: 0.3s
+}
+
+img.mid-profile:hover{
+    transform: scale(1.2);
 }
 
 img.big-profile{
